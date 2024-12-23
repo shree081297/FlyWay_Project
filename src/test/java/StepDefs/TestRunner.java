@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		monochrome = true,
-		plugin= {"pretty"},
+		plugin= {"pretty","json:target/cucumber.json","html:target/html-cucumber"},
 		features="src/test/java/Features",
 		glue="StepDefs",
 		tags= {"@FlyWay"}
