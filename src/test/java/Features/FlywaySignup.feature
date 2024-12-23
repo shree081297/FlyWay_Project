@@ -1,5 +1,5 @@
 Feature: This feature file is used to automate Flyway Signup functionality
-
+@Smoke
   Scenario: This scenario is used to book a flight
     Given I have launched the application
     When I have to click on Login/signup button
